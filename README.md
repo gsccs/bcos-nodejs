@@ -1,4 +1,6 @@
-##### :cat: It features: 
+####:fork from https://github.com/bcosorg/samples
+
+##### :cat: It features:
 - write a simple smart contract
     - setdata
     - getdata
@@ -10,10 +12,10 @@
 - es2017
 
 ##### :cat: Quick Start:
-- running the startDemo
+- running the bcos-nodejs
 
 ``` sh
- $ cd startDemo
+ $ cd bcos-nodejs
  $ npm install
  $ babel-node index.js
 ```
