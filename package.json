@@ -1,7 +1,7 @@
 {
   "name": "systemcontract",
   "version": "1.0.0",
-  "description": "sample for nodejs \"",
+  "description": "bcos for nodejs \"",
   "main": "index.js",
   "scripts": {
     "test": "test"

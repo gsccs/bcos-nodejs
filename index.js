@@ -20,10 +20,8 @@ try {
     //调用solc本地程序
     //编译合约文件
     execSync("solc --abi  --bin   --overwrite -o " + config.Ouputpath + "  " + filename + ".sol");
-
     console.log(filename + '编译成功！');
 } catch (e) {
-
     console.log(filename + '编译失败!' + e);
 }
 
