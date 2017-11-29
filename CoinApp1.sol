@@ -10,6 +10,7 @@ contract CoinApp1 {
     event AddMsg(address indexed sender, bytes32 msg);
 
     function CoinApp1() {
+
         minter = msg.sender;
         balances[minter] = 12300;
     }
@@ -36,6 +37,7 @@ contract CoinApp1 {
         balances[msg.sender] -= amount;
         balances[receiver] += amount;
         Sent(msg.sender,receiver,amount);
+
     }
 
 }
