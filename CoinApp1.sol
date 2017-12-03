@@ -31,6 +31,7 @@ contract CoinApp1 {
     }
 
     function send(address receiver,uint amount) {
+        assert(balances[msg.sender] >= amount);
         if (balances[msg.sender] < amount){
             return;
         }
